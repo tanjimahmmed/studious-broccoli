@@ -1,0 +1,18 @@
+{
+  "name": "project-ecommerce-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./tailwind/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.4.0"
+  }
+}
